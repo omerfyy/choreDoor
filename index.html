@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+  <head>
+    <title>Chore Door!</title>
+    <link href='./style.css' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type='text/css'>
+  </head>
+
+  <body>
+
+    <div class="header">
+      <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/logo.svg">
+    </div>
+
+    <div class="first-row">
+      <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg">
+      <p class="instructions-title">Instructies</p>
+      <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg">
+    </div>
+
+    <table class="second-row">
+      <tr>
+        <td class="instructions-number">1</td>
+        <td class="instructions-text">Achter een van deze deuren is de robot.</td>
+      </tr>
+      <tr>
+        <td class="instructions-number">2</td>
+        <td class="instructions-text">Je doel is om alle deuren te openen zonder dat je de robot tegenkomt.</td>
+      </tr>
+      <tr>
+        <td class="instructions-number">3</td>
+        <td class="instructions-text">Als je de robot kan ontwijken tot de laatste deur win je!</td>
+      </tr>
+      <tr>
+        <td class="instructions-number">4</td>
+        <td class="instructions-text">Kijk maar of je een win reeks kan bereiken.</td>
+      </tr>
+    </table>
+
+    <div class="door-row">
+      <img class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg" id="door1">
+      <img class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg" id="door2">
+      <img class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg" id="door3">
+    </div>
+
+    <div class="start-row" id="start">Veel succes!</div>
+
+    <table class="score-row">
+      <tr>
+        <th class="score-text">Huidige reeks:</th>
+        <th class="score-text">Beste reeks:</th>
+      </tr>
+      <tr>
+        <th class="score-box" id="score-number"></th>
+        <th class="score-box" id="high-score-number"></th>
+      <tr>
+    </table>
+
+    <script type="text/javascript" src="script.js"></script>
+
+  </body>
+</html>
